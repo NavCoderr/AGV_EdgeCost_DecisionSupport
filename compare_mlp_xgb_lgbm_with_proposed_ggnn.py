@@ -1,23 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-safe_learning_baselines_eswa.py
-
-FINAL ESWA REVISION BASELINE SCRIPT
-
-Purpose:
-- Compact planner-safe edge-cost baseline comparison.
-- Models:
-    1) MLP
-    2) XGBoost
-    3) LightGBM
-
-Important:
-- This script is for supporting baseline table only.
-- Main proposed GGNN result comes separately from main_run.py.
-- This script avoids target leakage by excluding:
-    time_s, energy_J, mean_speed, mean_power_W, samples, energy_J_per_m
-"""
-
 from __future__ import annotations
 
 from pathlib import Path
