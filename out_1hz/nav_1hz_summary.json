@@ -1,0 +1,15 @@
+{
+  "input_rows": 72452,
+  "output_rows_1hz_full": 2288,
+  "output_rows_move_only": 1159,
+  "dt_sec": 1.0,
+  "move_threshold_mps": 0.09,
+  "dejump_spikes_removed": 2526,
+  "time_start_s": 0.0,
+  "time_end_s": 2287.0,
+  "duration_s": 2287.0,
+  "max_speed_mps": 0.2994985,
+  "mean_speed_mps": 0.13078928474704044,
+  "n_target_events_full": 36,
+  "n_target_events_move_only": 33
+}
