@@ -2,13 +2,15 @@
 
 This repository contains the code, representative data files, graph files, preprocessing outputs, learned edge-cost outputs, temporal motion outputs, and evaluation scripts used for learning planner-compatible AGV edge costs and temporal trajectory realization in industrial logistics.
 
-## Main purpose
+## Main Purpose
 
 The project learns traversal time and energy costs from real Automated Guided Vehicle (AGV) telemetry and integrates the learned edge costs with classical graph-based route planning. It also includes temporal motion modeling for per-second trajectory realization.
 
-## Repository contents
+The workflow supports preprocessing of raw AGV logs into a uniform 1 Hz trajectory representation, trajectory-to-graph alignment, directed edge traversal sample extraction, graph-aligned traversal time and energy prediction, classical route planning using learned edge costs, hold-out mission evaluation, baseline comparison, alpha-sensitivity analysis, static corridor-unavailability rerouting tests, and temporal trajectory realization.
 
-### Main input files
+## Repository Contents
+
+### Main Input Files
 
 - `Node_F3.csv`  
   Directed shop-floor graph node file. It contains the graph nodes used for AGV route planning and graph-based learning.
@@ -19,7 +21,7 @@ The project learns traversal time and energy costs from real Automated Guided Ve
 - `wholetesting_nav2_.xlsx`  
   Representative raw AGV telemetry file used for preprocessing and evaluation.
 
-## Main source code files
+## Main Source Code Files
 
 - `config.py`  
   Contains file paths, thresholds, model settings, and experiment configuration.
@@ -60,7 +62,7 @@ The project learns traversal time and energy costs from real Automated Guided Ve
 - `utils_io.py`  
   Utility functions for input/output operations.
 
-## Experiment scripts
+## Experiment Scripts
 
 - `holdout_trajectory_eval.py`  
   Evaluates hold-out mission performance and trajectory-level behavior.
@@ -83,7 +85,7 @@ The project learns traversal time and energy costs from real Automated Guided Ve
 - `compare_mlp_xgb_lgbm_with_proposed_ggnn.py`  
   Compares non-graph learning baselines such as MLP, XGBoost, and LightGBM.
 
-## Output folders
+## Output Folders
 
 ### `out_1hz/`
 
