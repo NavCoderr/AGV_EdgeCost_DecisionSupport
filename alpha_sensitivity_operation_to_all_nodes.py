@@ -1,28 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-alpha_sensitivity_operation_to_all_nodes.py
-
-Purpose:
-- Reviewer #4 alpha-sensitivity support for ESWA revision.
-- Tests whether changing alpha affects route selection.
-- Starts from operation nodes 1..6 and tries all reachable graph destination nodes.
-- Uses learned predicted edge costs from edge_costs_pred.csv.
-- Does NOT rerun model training.
-- Produces CSV proof files for manuscript/rebuttal.
-
-Inputs expected in project folder or inductive_folder_new_data:
-    edge_costs_pred.csv
-    Node_F3.csv or Node_F3(3).csv
-    Edge_Distances3_.csv or Edge_Distances3_(4).csv
-
-Outputs:
-    inductive_folder_new_data/alpha_operation_to_all_nodes/
-        alpha_all_dest_detail.csv
-        alpha_all_dest_summary.csv
-        alpha_changed_only.csv
-        alpha_representative_examples.csv
-"""
-
 from __future__ import annotations
 
 from pathlib import Path
