@@ -1,0 +1,2 @@
+variant,route,pred_time_s,pred_energy_J,n_edges
+distance_only_without_gnn,5 -> 29 -> 26 -> 25 -> 23 -> 20 -> 22 -> 19 -> 17 -> 10 -> 9,19.606256902217865,19.606256902217865,10

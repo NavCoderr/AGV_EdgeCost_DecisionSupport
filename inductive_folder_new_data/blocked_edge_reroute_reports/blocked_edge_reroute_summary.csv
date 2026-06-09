@@ -1,0 +1,2 @@
+n_scenarios,n_route_changed,route_change_rate,mean_delta_time_s,mean_delta_energy_J,mean_delta_combo_cost
+5,4,0.8,3.8634252548217773,296.17921752929686,0.1297804806296094

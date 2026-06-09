@@ -1,0 +1,44 @@
+FEATURE_MODE=planner_safe
+MODELS=MLP, XGBoost, LightGBM
+
+This is a compact supporting baseline check for ESWA revision.
+This is not a comprehensive estimator-family benchmark.
+Main proposed GGNN is evaluated separately using main_run.py.
+
+EXCLUDED_FROM_FEATURES:
+- observed traversal duration / time_s
+- observed energy / energy_J
+- observed mean speed
+- observed mean power
+- duration-derived power
+- energy-per-meter
+- traversal sample count
+
+FEATURES_USED:
+edge_distance
+dx
+dy
+abs_dx
+abs_dy
+angle_sin
+angle_cos
+u_X-coordinate
+u_Y-coordinate
+u_Node_Degree
+u_charging_flag
+u_Type_Corridor
+u_Type_Intersection
+u_Type_Station
+u_dist_mean
+u_dist_min
+u_dist_max
+v_X-coordinate
+v_Y-coordinate
+v_Node_Degree
+v_charging_flag
+v_Type_Corridor
+v_Type_Intersection
+v_Type_Station
+v_dist_mean
+v_dist_min
+v_dist_max

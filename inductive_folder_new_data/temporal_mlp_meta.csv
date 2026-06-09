@@ -1,0 +1,2 @@
+dist_max,time_scale,energy_scale,speed_scale,power_scale,accel_scale,jerk_scale,yaw_scale,wheel_diff_scale,conf_scale,batt_scale,use_tau_feature,use_lookahead,temp_base_dim,temp_in_dim
+6.371539115905762,6.000001,455.24889212902747,0.29922079973790316,100.0,0.12403656021636719,0.15699857779737905,1.3681074340725796,1e-06,100.0,100.0,True,True,13,15
